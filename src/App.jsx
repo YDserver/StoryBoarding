@@ -24,15 +24,18 @@ function App() {
 
   const startEdit = (scene) => {
     setEditing(scene);
+ 
   };
 
   return (
+ 
     <div className="min-h-screen p-4 bg-gradient-to-br from-slate-800 to-slate-900">
       <h1 className="text-3xl font-bold mb-6 text-center bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
         Storyboard Builder
       </h1>
       <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
         <div className="space-y-4">
+ 
           <SceneForm
             onAdd={addScene}
             onUpdate={updateScene}
