@@ -28,9 +28,9 @@ function PdfExporter({ scenes }) {
     <PDFDownloadLink
       document={<PdfDoc scenes={scenes} />}
       fileName="storyboard.pdf"
-
+ 
       className="inline-block bg-gradient-to-r from-green-500 to-emerald-500 hover:from-emerald-500 hover:to-green-500 text-white px-4 py-2 rounded-md mt-4"
-
+ 
     >
       {({ loading }) => (loading ? 'Preparing document...' : 'Export to PDF')}
     </PDFDownloadLink>
