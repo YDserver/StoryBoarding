@@ -28,7 +28,7 @@ function PdfExporter({ scenes }) {
     <PDFDownloadLink
       document={<PdfDoc scenes={scenes} />}
       fileName="storyboard.pdf"
-gca3m9-codex/build-multi-scene-storyboard-app-with-pdf-export-and-vercel
+
       className="inline-block bg-gradient-to-r from-green-500 to-emerald-500 hover:from-emerald-500 hover:to-green-500 text-white px-4 py-2 rounded-md mt-4"
 
     >

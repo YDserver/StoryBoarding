@@ -2,7 +2,7 @@ function ScenePreview({ scenes }) {
   return (
     <div className="space-y-4">
       {scenes.map((scene, index) => (
-gca3m9-codex/build-multi-scene-storyboard-app-with-pdf-export-and-vercel
+ 
         <div
           key={scene.id}
           className="bg-white/10 backdrop-blur p-4 rounded-lg shadow-lg border border-white/20"
@@ -15,7 +15,7 @@ gca3m9-codex/build-multi-scene-storyboard-app-with-pdf-export-and-vercel
           )}
           <p className="mb-1">{scene.description}</p>
           <p className="italic text-gray-300">{scene.dialogue}</p>
-
+ 
         </div>
       ))}
     </div>
