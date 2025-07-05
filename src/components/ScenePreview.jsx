@@ -2,6 +2,7 @@ function ScenePreview({ scenes }) {
   return (
     <div className="space-y-4">
       {scenes.map((scene, index) => (
+ 
         <div
           key={scene.id}
           className="bg-white/10 backdrop-blur p-4 rounded-lg shadow-lg border border-white/20"
@@ -14,6 +15,7 @@ function ScenePreview({ scenes }) {
           )}
           <p className="mb-1">{scene.description}</p>
           <p className="italic text-gray-300">{scene.dialogue}</p>
+ 
         </div>
       ))}
     </div>
