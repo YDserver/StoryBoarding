@@ -1,23 +1,29 @@
 function SceneList({ scenes, onEdit, onDelete }) {
   return (
-    <div className="bg-white p-4 rounded shadow">
-      <h2 className="font-semibold mb-2">Scenes</h2>
+gca3m9-codex/build-multi-scene-storyboard-app-with-pdf-export-and-vercel
+    <div className="bg-white/10 backdrop-blur p-4 rounded-lg shadow-lg border border-white/20">
+      <h2 className="font-semibold mb-4 text-white">Scenes</h2>
       {scenes.length === 0 && <p className="text-sm">No scenes yet.</p>}
       <ul>
         {scenes.map((scene) => (
-          <li key={scene.id} className="border-b py-2 flex justify-between items-start">
+          <li key={scene.id} className="border-b border-white/20 py-2 flex justify-between items-start">
+
             <div>
               <p className="font-medium">{scene.title}</p>
             </div>
             <div>
               <button
-                className="text-blue-500 mr-2"
+gca3m9-codex/build-multi-scene-storyboard-app-with-pdf-export-and-vercel
+                className="text-purple-400 hover:text-purple-200 mr-2"
+main
                 onClick={() => onEdit(scene)}
               >
                 Edit
               </button>
               <button
-                className="text-red-500"
+ gca3m9-codex/build-multi-scene-storyboard-app-with-pdf-export-and-vercel
+                className="text-red-400 hover:text-red-200"
+ main
                 onClick={() => onDelete(scene.id)}
               >
                 Delete
