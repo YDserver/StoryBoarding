@@ -8,7 +8,9 @@ This app lets you build a multi-scene storyboard for 3D animation SOPs. Each sce
 - Optional AI image generation via a mocked `generateImage` function
 - Live scene preview
 - Export all scenes as a single PDF
+ gca3m9-codex/build-multi-scene-storyboard-app-with-pdf-export-and-vercel
 - Tailwind CSS styling with modern UI inspired by [uiverse.io](https://uiverse.io)
+main
 
 ## Getting Started
 
